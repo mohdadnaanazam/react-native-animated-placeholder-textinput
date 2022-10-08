@@ -35,13 +35,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/mohdadnaanazam/react-native-awesome-textinput",
+  "repository": "https://github.com/mohdadnaanazam/react-native-animated-placeholder-textinput",
   "author": "mohdadnaanazam <adnaan28.azam@gmail.com> (https://www.npmjs.com/package/react-native-animated-placeholder-textinput)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mohdadnaanazam/react-native-awesome-textinput/issues"
+    "url": "https://github.com/mohdadnaanazam/react-native-animated-placeholder-textinput/issues"
   },
-  "homepage": "https://github.com/mohdadnaanazam/react-native-awesome-textinput#readme",
+  "homepage": "https://github.com/mohdadnaanazam/react-native-animated-placeholder-textinput#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

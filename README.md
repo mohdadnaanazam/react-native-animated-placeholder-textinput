@@ -14,15 +14,14 @@ yarn add react-native-animated-placeholder-textinput
 
 ## Props
 
-| Plugin                                     | String | Description                                   | Default |
-| ------------------------------------------ | ------ | --------------------------------------------- | ------- |
-| label                                      | String | Displayed as placeholder string of the input. | Email   |
-| labelTopValue                              | Number | Negative value to adjust the                  |
-| placeholder on top border when click on it | -24    |
-| borderColor                                | String | Applied to the border of TextInput            | gray    |
-| borderWidth                                | Number | Applied to the border of TextInput            | 1       |
-| paddingVertical                            | Number | Applied to the TextInput component            | 8       |
-| borderRadius                               | Number | Applied to the TextInput                      | 5       |
+| Plugin          | String | Description                                                            | Default |
+| --------------- | ------ | ---------------------------------------------------------------------- | ------- |
+| label           | String | Displayed as placeholder string of the input.                          | Email   |
+| labelTopValue   | Number | Negative value to adjust theplaceholder on top border when click on it | -24     |
+| borderColor     | String | Applied to the border of TextInput                                     | gray    |
+| borderWidth     | Number | Applied to the border of TextInput                                     | 1       |
+| paddingVertical | Number | Applied to the TextInput component                                     | 8       |
+| borderRadius    | Number | Applied to the TextInput                                               | 5       |
 
 ## Development
 
