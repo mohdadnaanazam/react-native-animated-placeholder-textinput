@@ -22,6 +22,7 @@ yarn add react-native-animated-placeholder-textinput
 | borderWidth     | Number   | Applied to the border of TextInput                                         | 1       |
 | paddingVertical | Number   | Applied to the TextInput component                                         | 8       |
 | borderRadius    | Number   | Applied to the TextInput                                                   | 5       |
+| value           | String   | The value to show for the text input.                                      | -       |
 | onChangeText    | callback | Changed text is passed as a single string argument to the callback handler | -       |
 | textInputProps  | Object   | props of TextInput component                                               | -       |
 

@@ -22,6 +22,8 @@ type InputTextProps = {
   borderWidth?: number;
   paddingVertical?: number;
   borderRadius?: number;
+  value: string;
+  onChangeText: (value: string) => void;
 };
 
 const App = (props: InputTextProps) => {
@@ -35,6 +37,8 @@ const App = (props: InputTextProps) => {
     paddingVertical = 8,
     borderRadius = 5,
     placeholder = 'Email',
+    value = '',
+    onChangeText,
   } = props;
 
   const inputRef = useRef<TextInput>(null);
@@ -84,13 +88,18 @@ const App = (props: InputTextProps) => {
     labelSharedValue.value = 1;
     inputRef?.current?.focus();
   };
+
   return (
     <View style={styles.textInput}>
       <TextInput
         {...textInputProps}
         ref={inputRef}
         onFocus={() => (labelSharedValue.value = 1)}
-        onBlur={() => (labelSharedValue.value = 0)}
+        onBlur={() => {
+          if (!value) labelSharedValue.value = 0;
+        }}
+        value={value}
+        onChangeText={onChangeText}
         style={[styles.textInputStyle]}
       />
       <Animated.View style={styles.textInputLabelWrapper}>
