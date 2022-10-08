@@ -1,29 +1,36 @@
-# react-native-animated-placeholder-textinput
-react-native-animated-placeholder-textinput
+## React Native Animated Placeholder Textinput
+
+https://user-images.githubusercontent.com/59410944/194718547-645b002b-016a-47e7-878a-bd8e037f1339.mov
+
 ## Installation
 
+Install the dependencies and devDependencies and start the server.
+
 ```sh
-npm install react-native-animated-placeholder-textinput
+npm i react-native-animated-placeholder-textinput
+or
+yarn add react-native-animated-placeholder-textinput
 ```
 
-## Usage
+## Props
 
-```js
-import { multiply } from "react-native-animated-placeholder-textinput";
+| Plugin                                     | String | Description                                   | Default |
+| ------------------------------------------ | ------ | --------------------------------------------- | ------- |
+| label                                      | String | Displayed as placeholder string of the input. | Email   |
+| labelTopValue                              | Number | Negative value to adjust the                  |
+| placeholder on top border when click on it | -24    |
+| borderColor                                | String | Applied to the border of TextInput            | gray    |
+| borderWidth                                | Number | Applied to the border of TextInput            | 1       |
+| paddingVertical                            | Number | Applied to the TextInput component            | 8       |
+| borderRadius                               | Number | Applied to the TextInput                      | 5       |
 
-// ...
+## Development
 
-const result = await multiply(3, 7);
-```
-
-## Contributing
-
-See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
+Want to contribute? Great!
 
 ## License
 
 MIT
 
----
-
-Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
+**Free Software, Hell Yeah!**
+# react-native-animated-placeholder-textinput

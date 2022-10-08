@@ -1,6 +1,6 @@
 {
   "name": "react-native-animated-placeholder-textinput",
-  "version": "0.1.0",
+  "version": "0.0.3",
   "description": "test",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -36,7 +36,7 @@
     "android"
   ],
   "repository": "https://github.com/mohdadnaanazam/react-native-awesome-textinput",
-  "author": "adnaan2328 <adnaan28.azam@gmail.com> (https://www.npmjs.com/package/react-native-animated-placeholder-textinput)",
+  "author": "mohdadnaanazam <adnaan28.azam@gmail.com> (https://www.npmjs.com/package/react-native-animated-placeholder-textinput)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mohdadnaanazam/react-native-awesome-textinput/issues"
@@ -64,6 +64,7 @@
     "react": "17.0.2",
     "react-native": "0.68.2",
     "react-native-builder-bob": "^0.18.3",
+    "react-native-reanimated": "^2.10.0",
     "release-it": "^15.0.0",
     "typescript": "^4.5.2"
   },
