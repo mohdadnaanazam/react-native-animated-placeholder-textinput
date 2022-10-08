@@ -85,28 +85,26 @@ const App = (props: InputTextProps) => {
     inputRef?.current?.focus();
   };
   return (
-    <View style={{ flex: 1, justifyContent: 'center', paddingHorizontal: 20 }}>
-      <View style={styles.textInput}>
-        <TextInput
-          {...textInputProps}
-          ref={inputRef}
-          onFocus={() => (labelSharedValue.value = 1)}
-          onBlur={() => (labelSharedValue.value = 0)}
-          style={[styles.textInputStyle]}
-        />
-        <Animated.View style={styles.textInputLabelWrapper}>
-          <Pressable onPress={labelHandler}>
-            <Animated.Text
-              style={[
-                animatedLabelProps,
-                { backgroundColor: 'white', paddingHorizontal: 2 },
-              ]}
-            >
-              {placeholder}
-            </Animated.Text>
-          </Pressable>
-        </Animated.View>
-      </View>
+    <View style={styles.textInput}>
+      <TextInput
+        {...textInputProps}
+        ref={inputRef}
+        onFocus={() => (labelSharedValue.value = 1)}
+        onBlur={() => (labelSharedValue.value = 0)}
+        style={[styles.textInputStyle]}
+      />
+      <Animated.View style={styles.textInputLabelWrapper}>
+        <Pressable onPress={labelHandler}>
+          <Animated.Text
+            style={[
+              animatedLabelProps,
+              { backgroundColor: 'white', paddingHorizontal: 2 },
+            ]}
+          >
+            {placeholder}
+          </Animated.Text>
+        </Pressable>
+      </Animated.View>
     </View>
   );
 };
