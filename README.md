@@ -1,6 +1,6 @@
 ## React Native Animated Placeholder Textinput
 
-https://user-images.githubusercontent.com/59410944/194718547-645b002b-016a-47e7-878a-bd8e037f1339.mov
+![intro](https://user-images.githubusercontent.com/59410944/194719146-65abda20-5d0a-4c1c-bb84-a2d90787608a.gif)
 
 ## Installation
 
@@ -33,4 +33,3 @@ Want to contribute? Great!
 MIT
 
 **Free Software, Hell Yeah!**
-# react-native-animated-placeholder-textinput

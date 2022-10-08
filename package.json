@@ -1,6 +1,6 @@
 {
   "name": "react-native-animated-placeholder-textinput",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "test",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
