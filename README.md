@@ -1,4 +1,4 @@
-## _React Native Animated Placeholder Textinput _
+## React Native Animated Placeholder Textinput
 
 ![intro](https://user-images.githubusercontent.com/59410944/194719146-65abda20-5d0a-4c1c-bb84-a2d90787608a.gif)
 
