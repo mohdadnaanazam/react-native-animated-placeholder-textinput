@@ -12,6 +12,27 @@ or
 yarn add react-native-animated-placeholder-textinput
 ```
 
+```sh
+import React, {useState} from 'react';
+import AnimatedTextInput from 'react-native-animated-placeholder-textinput';
+
+export default function App() {
+  const [email, setEmail] = useState('');
+  return (
+    <AnimatedTextInput
+      placeholder="Email"
+      value={email}
+      textInputProps={{
+        keyboardType: 'email-address',
+      }}
+      onChangeText={data => setEmail(data)}
+    />
+  );
+}
+
+
+```
+
 ## Props
 
 | Plugin          | String   | Description                                                                | Default |
